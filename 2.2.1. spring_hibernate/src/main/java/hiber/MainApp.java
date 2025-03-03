@@ -40,7 +40,7 @@ public class MainApp {
       }
 
       User userByCarModel = userService.getUserByCarModel("Ferrari", 2024);
-      System.out.println(userByCarModel.toString());
+      System.out.println(userByCarModel);
 
       context.close();
    }
